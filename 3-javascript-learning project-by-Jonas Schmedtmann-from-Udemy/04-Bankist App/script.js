@@ -65,14 +65,18 @@ const inputClosePassword = document.querySelector(".form_input--password");
 //////////////////////////////////
 // Elements
 
-const displayMovements = function (movements, sort = false) {
+const displayMovements = function (acc, sort = false) {
   containerMovements.innerHTML = "";
-  const movs = sort ? movements.slice().sort((a, b) => a - b) : movements;
+  const movs = sort
+    ? acc.movements.slice().sort((a, b) => a - b)
+    : acc.movements;
   movs.forEach((mov, i) => {
     const type = mov > 0 ? "deposit" : "withdrawal";
+
     const html = `
     <div class="movement_row">
     <div class="movement_type movement--${type}">${i + 1} ${type}</div>
+    
     
     <div class="movement_value">${mov}฿</div>
   </div>
@@ -103,7 +107,7 @@ const calcDisplaysummary = function (acc) {
     .filter((mov) => mov > 0)
     .map((deposit) => (deposit * acc.interestRate) / 100)
     .filter((int, i, arr) => {
-      console.log(arr);
+      // console.log(arr);
       return int > 1;
     })
     .reduce((acc, int) => acc + int);
@@ -122,15 +126,19 @@ const createUsername = function (accs) {
 createUsername(accounts);
 
 const updateUI = function (acc) {
-  displayMovements(acc.movements);
+  displayMovements(acc);
   calcDisplayBalance(acc);
   calcDisplaysummary(acc);
 };
 
 //////////////////////////////////
 // Event handlers
-
 let currentAccount;
+
+// fake login
+currentAccount = account1;
+containerApp.style.opacity = 1;
+updateUI(currentAccount);
 // login
 btnLogin.addEventListener("click", function (e) {
   e.preventDefault();
@@ -145,6 +153,19 @@ btnLogin.addEventListener("click", function (e) {
     labelWelcome.textContent = `Greeting, ${
       currentAccount.owner.split(" ")[0]
     }`;
+    // updatte date
+    const now = new Date();
+    const options = {
+      hour: "numeric",
+      min: "numeric",
+      day: "numeric",
+      month: "numeric",
+      year: "numeric",
+    };
+    const locale = navigator.language;
+    labelDate.textContent = new Intl.DateTimeFormat(locale, options).format(
+      now
+    );
     // display UI
     containerApp.style.opacity = 1;
     updateUI(currentAccount);
@@ -183,7 +204,7 @@ btnTransfer.addEventListener("click", function (e) {
 // request loan
 btnLoan.addEventListener("click", function (e) {
   e.preventDefault();
-  const amount = Number(inputLoanAmount.value);
+  const amount = Math.floor(inputLoanAmount.value);
 
   if (
     amount > 0 &&
@@ -221,6 +242,6 @@ btnClose.addEventListener("click", function (e) {
 let sorted = false;
 btnSort.addEventListener("click", function (e) {
   e.preventDefault();
-  displayMovements(currentAccount.movements, !sorted);
+  displayMovements(currentAccount, !sorted);
   sorted = !sorted;
 });
