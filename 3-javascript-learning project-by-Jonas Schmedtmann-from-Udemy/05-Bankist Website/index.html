@@ -19,13 +19,13 @@
         <img src="img/logo.png" alt="Bank logo" class="nav__logo" id="logo" />
         <ul class="nav__links">
           <li class="nav__item">
-            <a href="#" class="nav__link">Features</a>
+            <a href="#section--1" class="nav__link">Features</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Operations</a>
+            <a href="#section--2" class="nav__link">Operations</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Testimonials</a>
+            <a href="#section--3" class="nav__link">Testimonials</a>
           </li>
           <li class="nav__item">
             <a href="#" class="nav__link nav__link--btn btn--show-modal"
@@ -166,13 +166,14 @@
         <div class="operations__tab-container">
           <button
             class="btn operation__tab operation__tab--1 operation__tab--active"
+            data-tab="1"
           >
             <span>01</span> Instant transfer
           </button>
-          <button class="btn operation__tab operation__tab--2">
+          <button class="btn operation__tab operation__tab--2" data-tab="2">
             <span>02</span> Instant Loans
           </button>
-          <button class="btn operation__tab operation__tab--3">
+          <button class="btn operation__tab operation__tab--3" data-tab="3">
             <span>03</span> Instant Closing
           </button>
         </div>
@@ -235,7 +236,7 @@
           </p>
         </div>
 
-        <div class="operations__content operations__content--2">
+        <div class="operations__content operations__content--3">
           <div class="operations__icon operations__icon--3">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -255,7 +256,7 @@
           <h5 class="operations__header">
             No longer need your account? No problem! Close it instantly.
           </h5>
-          <p class="operations_text">
+          <p class="operations__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, eum!
             Repudiandae sequi esse, adipisci, odit corrupti neque aliquid ipsa
             unde dolore autem quae quia ratione ab amet cupiditate hic
@@ -338,11 +339,7 @@
 
         <button class="slider__btn slider__btn--left">&larr;</button>
         <button class="slider__btn slider__btn--right">&rarr;</button>
-        <div class="dots">
-          <p class="dots__dot">&dot;</p>
-          <p class="dots__dot">&dot;</p>
-          <p class="dots__dot">&dot;</p>
-        </div>
+        <div class="dots"></div>
       </div>
     </section>
 
