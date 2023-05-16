@@ -13,6 +13,13 @@
 
 - ⚡ Fun fact **"I believe in consistentcy because consistency is a key to change."**
 
+## My leaning projects
+
+  * [My Python leaning projects](https://github.com/klamanjit/portfolio/tree/master/1-python-learning-project-by-Dr.Angela%20Yu-from-Udemy)
+  * [My HTML&CSS leaning projects](https://github.com/klamanjit/portfolio/tree/master/2-html%26css-learning-project-by-Jonas%20Schmedtmann-from-Udemy)
+  * [My JavaScript leaning projects](https://github.com/klamanjit/portfolio/tree/master/3-javascript-learning%20project-by-Jonas%20Schmedtmann-from-Udemy)
+  * [My Side-Projects](https://github.com/klamanjit/portfolio/tree/master/0-my-side-project)
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/wasit-manjit-414aa225b" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="wasit-manjit-414aa225b" height="30" width="40" /></a>
