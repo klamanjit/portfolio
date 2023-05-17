@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Wasit Manjit</h1>
 <h2 align="center">A passionate self-learning web developer from Thailand</h3>
-<h3 align="center">It contain Python,HTML,CSS and Javascript online courses projects that I have learned from Udemy including my side project.</h1>
-
+<h3 align="center">My porfolio consist of Python,HTML,CSS and Javascript online courses projects that I have learned from Udemy including my side project </h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=klamanjit&label=Profile%20views&color=0e75b6&style=flat" alt="klamanjit" /> </p>
 
@@ -15,9 +14,9 @@
 
 ## My leaning projects
 
-  * [My Python leaning projects](https://github.com/klamanjit/portfolio/tree/master/1-python-learning-project-by-Dr.Angela%20Yu-from-Udemy)
-  * [My HTML&CSS leaning projects](https://github.com/klamanjit/portfolio/tree/master/2-html%26css-learning-project-by-Jonas%20Schmedtmann-from-Udemy)
-  * [My JavaScript leaning projects](https://github.com/klamanjit/portfolio/tree/master/3-javascript-learning%20project-by-Jonas%20Schmedtmann-from-Udemy)
+  * [My Python leaning projects by Dr.Angela Yu](https://github.com/klamanjit/portfolio/tree/master/1-python-learning-project-by-Dr.Angela%20Yu-from-Udemy)
+  * [My HTML&CSS leaning projects by Jonas Schmedtmann](https://github.com/klamanjit/portfolio/tree/master/2-html%26css-learning-project-by-Jonas%20Schmedtmann-from-Udemy)
+  * [My JavaScript leaning projects by Jonas Schmedtmann](https://github.com/klamanjit/portfolio/tree/master/3-javascript-learning%20project-by-Jonas%20Schmedtmann-from-Udemy)
   * [My Side-Projects](https://github.com/klamanjit/portfolio/tree/master/0-my-side-project)
 
 <h3 align="left">Connect with me:</h3>
