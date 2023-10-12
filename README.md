@@ -1,12 +1,12 @@
 <h1 align="center">Hi 👋, I'm Wasit Manjit</h1>
 <h2 align="center">A passionate self-learning web developer from Thailand</h3>
-<h3 align="center">My porfolio consist of Python,HTML,CSS and Javascript online courses projects that I have learned from Udemy including my side project </h3>
+<h3 align="center">My portfolio comprises online projects I've completed in Python, HTML, CSS, JavaScript, and Vue.js through Udemy courses, in addition to a side project I've developed. </h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=klamanjit&label=Profile%20views&color=0e75b6&style=flat" alt="klamanjit" /> </p>
 
-- 🌱 I’m currently learning **JavaScript, Vue, HTML, CSS, Python**
+- 🌱 I’m currently learning **JavaScript, Vue.js, HTML, CSS, Python**
 
-- 👨‍💻 All of my projects are available at [https://github.com/klamanjit/portfolio](https://github.com/klamanjit/portfolio)
+- 👨‍💻 All of my projects are available at [Projects](https://profile.klamanjit.dev/projects)
 
 - 📫 How to reach me **manjit.wasit@gmail.com**
 
